@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C760D451AAFF2FA00EA771D /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C760D441AAFF2FA00EA771D /* InterfaceController.m */; };
+		3C760D481AAFF2FA00EA771D /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C760D471AAFF2FA00EA771D /* NotificationController.m */; };
+		3C760D4B1AAFF2FA00EA771D /* GlanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C760D4A1AAFF2FA00EA771D /* GlanceController.m */; };
+		3C760D4D1AAFF2FA00EA771D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C760D4C1AAFF2FA00EA771D /* Images.xcassets */; };
+		3C760D511AAFF2FA00EA771D /* dropit WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 3C760D501AAFF2FA00EA771D /* dropit WatchKit App.app */; };
+		3C760D591AAFF2FA00EA771D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C760D571AAFF2FA00EA771D /* Interface.storyboard */; };
+		3C760D5B1AAFF2FA00EA771D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C760D5A1AAFF2FA00EA771D /* Images.xcassets */; };
+		3C760D5E1AAFF2FA00EA771D /* dropit WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3C760D3E1AAFF2FA00EA771D /* dropit WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		3CBD21071AA8E62C005CDF52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBD21061AA8E62C005CDF52 /* main.m */; };
 		3CBD210A1AA8E62C005CDF52 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBD21091AA8E62C005CDF52 /* AppDelegate.m */; };
 		3CBD210D1AA8E62C005CDF52 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBD210C1AA8E62C005CDF52 /* ViewController.m */; };
@@ -18,6 +26,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		3C760D521AAFF2FA00EA771D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CBD20F91AA8E62C005CDF52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C760D4F1AAFF2FA00EA771D;
+			remoteInfo = "dropit WatchKit App";
+		};
+		3C760D5C1AAFF2FA00EA771D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CBD20F91AA8E62C005CDF52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C760D3D1AAFF2FA00EA771D;
+			remoteInfo = "dropit WatchKit Extension";
+		};
 		3CBD211B1AA8E62C005CDF52 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3CBD20F91AA8E62C005CDF52 /* Project object */;
@@ -27,7 +49,35 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		3C760D651AAFF2FA00EA771D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3C760D5E1AAFF2FA00EA771D /* dropit WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		3C760D3E1AAFF2FA00EA771D /* dropit WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "dropit WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C760D411AAFF2FA00EA771D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C760D421AAFF2FA00EA771D /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		3C760D431AAFF2FA00EA771D /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		3C760D441AAFF2FA00EA771D /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		3C760D461AAFF2FA00EA771D /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		3C760D471AAFF2FA00EA771D /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		3C760D491AAFF2FA00EA771D /* GlanceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlanceController.h; sourceTree = "<group>"; };
+		3C760D4A1AAFF2FA00EA771D /* GlanceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlanceController.m; sourceTree = "<group>"; };
+		3C760D4C1AAFF2FA00EA771D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3C760D501AAFF2FA00EA771D /* dropit WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dropit WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C760D561AAFF2FA00EA771D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C760D581AAFF2FA00EA771D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		3C760D5A1AAFF2FA00EA771D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3CBD21011AA8E62C005CDF52 /* dropit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dropit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CBD21051AA8E62C005CDF52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CBD21061AA8E62C005CDF52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -46,6 +96,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3C760D3B1AAFF2FA00EA771D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3CBD20FE1AA8E62C005CDF52 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -63,11 +120,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C760D3F1AAFF2FA00EA771D /* dropit WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3C760D431AAFF2FA00EA771D /* InterfaceController.h */,
+				3C760D441AAFF2FA00EA771D /* InterfaceController.m */,
+				3C760D461AAFF2FA00EA771D /* NotificationController.h */,
+				3C760D471AAFF2FA00EA771D /* NotificationController.m */,
+				3C760D491AAFF2FA00EA771D /* GlanceController.h */,
+				3C760D4A1AAFF2FA00EA771D /* GlanceController.m */,
+				3C760D4C1AAFF2FA00EA771D /* Images.xcassets */,
+				3C760D401AAFF2FA00EA771D /* Supporting Files */,
+			);
+			path = "dropit WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		3C760D401AAFF2FA00EA771D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C760D411AAFF2FA00EA771D /* Info.plist */,
+				3C760D421AAFF2FA00EA771D /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C760D541AAFF2FA00EA771D /* dropit WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				3C760D571AAFF2FA00EA771D /* Interface.storyboard */,
+				3C760D5A1AAFF2FA00EA771D /* Images.xcassets */,
+				3C760D551AAFF2FA00EA771D /* Supporting Files */,
+			);
+			path = "dropit WatchKit App";
+			sourceTree = "<group>";
+		};
+		3C760D551AAFF2FA00EA771D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C760D561AAFF2FA00EA771D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		3CBD20F81AA8E62C005CDF52 = {
 			isa = PBXGroup;
 			children = (
 				3CBD21031AA8E62C005CDF52 /* dropit */,
 				3CBD211D1AA8E62C005CDF52 /* dropitTests */,
+				3C760D3F1AAFF2FA00EA771D /* dropit WatchKit Extension */,
+				3C760D541AAFF2FA00EA771D /* dropit WatchKit App */,
 				3CBD21021AA8E62C005CDF52 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,6 +178,8 @@
 			children = (
 				3CBD21011AA8E62C005CDF52 /* dropit.app */,
 				3CBD211A1AA8E62C005CDF52 /* dropitTests.xctest */,
+				3C760D3E1AAFF2FA00EA771D /* dropit WatchKit Extension.appex */,
+				3C760D501AAFF2FA00EA771D /* dropit WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,6 +230,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3C760D3D1AAFF2FA00EA771D /* dropit WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C760D641AAFF2FA00EA771D /* Build configuration list for PBXNativeTarget "dropit WatchKit Extension" */;
+			buildPhases = (
+				3C760D3A1AAFF2FA00EA771D /* Sources */,
+				3C760D3B1AAFF2FA00EA771D /* Frameworks */,
+				3C760D3C1AAFF2FA00EA771D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C760D531AAFF2FA00EA771D /* PBXTargetDependency */,
+			);
+			name = "dropit WatchKit Extension";
+			productName = "dropit WatchKit Extension";
+			productReference = 3C760D3E1AAFF2FA00EA771D /* dropit WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		3C760D4F1AAFF2FA00EA771D /* dropit WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C760D631AAFF2FA00EA771D /* Build configuration list for PBXNativeTarget "dropit WatchKit App" */;
+			buildPhases = (
+				3C760D4E1AAFF2FA00EA771D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dropit WatchKit App";
+			productName = "dropit WatchKit App";
+			productReference = 3C760D501AAFF2FA00EA771D /* dropit WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 		3CBD21001AA8E62C005CDF52 /* dropit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3CBD21241AA8E62C005CDF52 /* Build configuration list for PBXNativeTarget "dropit" */;
@@ -134,10 +270,12 @@
 				3CBD20FD1AA8E62C005CDF52 /* Sources */,
 				3CBD20FE1AA8E62C005CDF52 /* Frameworks */,
 				3CBD20FF1AA8E62C005CDF52 /* Resources */,
+				3C760D651AAFF2FA00EA771D /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3C760D5D1AAFF2FA00EA771D /* PBXTargetDependency */,
 			);
 			name = dropit;
 			productName = dropit;
@@ -171,6 +309,12 @@
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = yuyutsulabs;
 				TargetAttributes = {
+					3C760D3D1AAFF2FA00EA771D = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					3C760D4F1AAFF2FA00EA771D = {
+						CreatedOnToolsVersion = 6.2;
+					};
 					3CBD21001AA8E62C005CDF52 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
@@ -195,11 +339,31 @@
 			targets = (
 				3CBD21001AA8E62C005CDF52 /* dropit */,
 				3CBD21191AA8E62C005CDF52 /* dropitTests */,
+				3C760D3D1AAFF2FA00EA771D /* dropit WatchKit Extension */,
+				3C760D4F1AAFF2FA00EA771D /* dropit WatchKit App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3C760D3C1AAFF2FA00EA771D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C760D511AAFF2FA00EA771D /* dropit WatchKit App.app in Resources */,
+				3C760D4D1AAFF2FA00EA771D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C760D4E1AAFF2FA00EA771D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C760D591AAFF2FA00EA771D /* Interface.storyboard in Resources */,
+				3C760D5B1AAFF2FA00EA771D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3CBD20FF1AA8E62C005CDF52 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -220,6 +384,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3C760D3A1AAFF2FA00EA771D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C760D481AAFF2FA00EA771D /* NotificationController.m in Sources */,
+				3C760D451AAFF2FA00EA771D /* InterfaceController.m in Sources */,
+				3C760D4B1AAFF2FA00EA771D /* GlanceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3CBD20FD1AA8E62C005CDF52 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -242,6 +416,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		3C760D531AAFF2FA00EA771D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C760D4F1AAFF2FA00EA771D /* dropit WatchKit App */;
+			targetProxy = 3C760D521AAFF2FA00EA771D /* PBXContainerItemProxy */;
+		};
+		3C760D5D1AAFF2FA00EA771D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C760D3D1AAFF2FA00EA771D /* dropit WatchKit Extension */;
+			targetProxy = 3C760D5C1AAFF2FA00EA771D /* PBXContainerItemProxy */;
+		};
 		3CBD211C1AA8E62C005CDF52 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 3CBD21001AA8E62C005CDF52 /* dropit */;
@@ -250,6 +434,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		3C760D571AAFF2FA00EA771D /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C760D581AAFF2FA00EA771D /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		3CBD210E1AA8E62C005CDF52 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -269,6 +461,66 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		3C760D5F1AAFF2FA00EA771D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "dropit WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3C760D601AAFF2FA00EA771D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = "dropit WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3C760D611AAFF2FA00EA771D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = dropit_WatchKit_Extension;
+				INFOPLIST_FILE = "dropit WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		3C760D621AAFF2FA00EA771D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COPY_PHASE_STRIP = NO;
+				IBSC_MODULE = dropit_WatchKit_Extension;
+				INFOPLIST_FILE = "dropit WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
 		3CBD21221AA8E62C005CDF52 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -402,6 +654,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3C760D631AAFF2FA00EA771D /* Build configuration list for PBXNativeTarget "dropit WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C760D611AAFF2FA00EA771D /* Debug */,
+				3C760D621AAFF2FA00EA771D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3C760D641AAFF2FA00EA771D /* Build configuration list for PBXNativeTarget "dropit WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C760D5F1AAFF2FA00EA771D /* Debug */,
+				3C760D601AAFF2FA00EA771D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		3CBD20FC1AA8E62C005CDF52 /* Build configuration list for PBXProject "dropit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

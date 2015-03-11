@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4296F53F-375A-4073-B406-D2EF9A18A7A5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>dropit</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>854A5EEE8B8AEAA8DEEE2B70415358FDA898D156</key>
+		<string>https://github.com/Yuyutsu/DropItView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>dropit.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>854A5EEE8B8AEAA8DEEE2B70415358FDA898D156</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Yuyutsu/DropItView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>854A5EEE8B8AEAA8DEEE2B70415358FDA898D156</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>854A5EEE8B8AEAA8DEEE2B70415358FDA898D156</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DropItView</string>
+		</dict>
+	</array>
+</dict>
+</plist>
